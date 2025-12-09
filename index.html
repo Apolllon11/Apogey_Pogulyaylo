@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Апогей — техподдержка 1С и портал для карьеры</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Апогей: №7 партнёр 1С, поддержка 1С для госсектора и карьерный портал для студентов и выпускников ИТ и экономики.">
+</head>
+<body>
+  <header class="top-bar">
+    <div class="brand">
+      <img src="assets/logo-apogey.svg" alt="Логотип Апогей">
+      <div class="brand-text">
+        <strong>Апогей</strong>
+        <span>№7 партнёр 1С</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#portal" class="pill">Главная</a>
+      <a href="#clients" class="pill">Для клиентов</a>
+      <a href="#talent" class="pill">Для сотрудников</a>
+      <a href="https://apogey.ru" class="pill ghost" target="_blank" rel="noopener">apogey.ru</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="portal">
+      <div class="hero-copy">
+        <div class="tag">15 лет решаем задачи 1С в госсекторе</div>
+        <h1>Техподдержка 1С для госучреждений и массовый рост IT-специалистов</h1>
+        <p class="lead">Обслуживаем 3000+ учреждений по всей России. 550+ экспертов в 6 городах, запускаем Санкт-Петербург. Помогаем главбухам сдавать отчётность и растим талантливых инженеров.</p>
+        <div class="cta-group">
+          <button class="btn" data-target="clients">Для клиентов</button>
+          <button class="btn ghost" data-target="talent">Для сотрудников</button>
+        </div>
+        <div class="hero-metrics">
+          <div class="metric"><strong>500 000+</strong><span>задач закрыто за 2024</span></div>
+          <div class="metric"><strong>№7</strong><span>из 6800 партнёров 1С</span></div>
+          <div class="metric"><strong>15 лет</strong><span>стабильного роста</span></div>
+          <div class="metric"><strong>3000+</strong><span>госучреждений на поддержке</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orb orbit-1"></div>
+        <div class="orb orbit-2"></div>
+        <div class="hero-card">
+          <h3>Два маршрута — один язык дизайна</h3>
+          <p>Отдельные потоки для клиентов и кандидатов. Минимализм, стеклянные панели и акцент на доверии.</p>
+          <div class="pill-row">
+            <span class="pill">Для главных бухгалтеров</span>
+            <span class="pill">Для студентов и выпускников</span>
+          </div>
+          <div class="mini-grid">
+            <div>
+              <div class="label">Города</div>
+              <strong>7</strong>
+              <small>Красноярск — HQ, Краснодар, Владивосток, Самара, Екатеринбург, Иркутск, СПб</small>
+            </div>
+            <div>
+              <div class="label">Цель</div>
+              <strong>№1</strong>
+              <small>Хотим стать главным партнёром 1С в стране</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section audience-switch">
+      <div class="switcher">
+        <button class="switch active" data-target="clients">Клиенты</button>
+        <button class="switch" data-target="talent">Сотрудники</button>
+      </div>
+      <div class="switch-panels">
+        <div class="panel active" id="panel-clients">
+          <h2>Для клиентов: решаем нерешаемое в 1С</h2>
+          <p class="lead">Бухучёт, зарплата, налоги и контроль — разбираемся быстро и бережно. Публикуем пошаговые инструкции и закрываем первые задачи бесплатно.</p>
+          <div class="split">
+            <div class="card highlight">
+              <h3>Почему нам доверяют</h3>
+              <ul class="list">
+                <li><span class="badge">1</span>Управление делами Губернатора и Минфин Красноярского края</li>
+                <li><span class="badge">2</span>Сотни тысяч решённых обращений в год</li>
+                <li><span class="badge">3</span>База решений по каждому сценарию 1С</li>
+                <li><span class="badge">4</span>Сервис 24/7 и персональный менеджер</li>
+              </ul>
+              <div class="logos">
+                <img src="assets/logo-sputnik.svg" alt="Лого спутник">
+                <img src="assets/logo-atlas.svg" alt="Лого атлас">
+                <img src="assets/logo-orbita.svg" alt="Лого орбита">
+              </div>
+            </div>
+            <div class="card">
+              <h3>Попробовать бесплатно</h3>
+              <p class="quote">Опишите проблему — закроем её бесплатно и покажем скорость. Параллельно дадим доступ к библиотеке инструкций и коротких видео.</p>
+              <form class="form" aria-label="Заявка клиента">
+                <input type="text" name="name" placeholder="Имя и должность" required>
+                <input type="email" name="email" placeholder="Рабочая почта" required>
+                <select name="region">
+                  <option>Регион учреждения</option>
+                  <option>Центр</option>
+                  <option>Сибирь и Дальний Восток</option>
+                  <option>Юг</option>
+                  <option>Урал и Поволжье</option>
+                </select>
+                <textarea name="task" rows="3" placeholder="Опишите задачу или ошибку в 1С"></textarea>
+                <button class="btn" type="submit">Получить помощь</button>
+              </form>
+            </div>
+          </div>
+          <div class="process">
+            <div class="step">
+              <div class="step-index">01</div>
+              <div>
+                <h4>Диагностика за 15 минут</h4>
+                <p>Связываемся, фиксируем проблему, сразу предлагаем быстрый план.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-index">02</div>
+              <div>
+                <h4>Решение и документация</h4>
+                <p>Закрываем обращение, формируем инструкцию со скриншотами для повторного использования.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-index">03</div>
+              <div>
+                <h4>Поддержка и аналитика</h4>
+                <p>Показываем SLA, метрики скорости и даём рекомендации, как не допустить повторных ошибок.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="panel-talent">
+          <h2>Для сотрудников: карьера в 1С с первых задач</h2>
+          <p class="lead">Мы растим специалистов из студентов СибГУ, СФУ и вузов городов присутствия. Реальные кейсы, менторство и оплаченное обучение.</p>
+          <div class="grid-3">
+            <div class="card">
+              <div class="label">ДНК</div>
+              <h3>Культура и ценности</h3>
+              <p>Скорость, клиентский сервис, взаимная поддержка. Прозрачные цели и решения, которые видят клиенты.</p>
+            </div>
+            <div class="card">
+              <div class="label">Трек</div>
+              <h3>Рост от стажёра до тимлида</h3>
+              <p>Менторы, практикум по 1С, ревью кода, участие в запуске новых офисов и продукта.</p>
+            </div>
+            <div class="card">
+              <div class="label">Интерактив</div>
+              <h3>Тестовые с практикой</h3>
+              <p>Регистрируйтесь, решайте боевые задачи 1С, защищайте решение перед экспертами и получайте оффер.</p>
+            </div>
+          </div>
+          <div class="split">
+            <div class="card highlight">
+              <h3>Подать заявку</h3>
+              <form class="form" aria-label="Заявка кандидата">
+                <input type="text" name="fio" placeholder="Имя и фамилия" required>
+                <input type="email" name="contact" placeholder="Почта или Telegram" required>
+                <select name="city">
+                  <option>Город</option>
+                  <option>Красноярск</option>
+                  <option>Краснодар</option>
+                  <option>Владивосток</option>
+                  <option>Самара</option>
+                  <option>Екатеринбург</option>
+                  <option>Иркутск</option>
+                  <option>Санкт-Петербург</option>
+                </select>
+                <textarea name="about" rows="3" placeholder="Курс обучения и опыт в 1С или программировании"></textarea>
+                <button class="btn" type="submit">Получить тестовое</button>
+              </form>
+            </div>
+            <div class="card">
+              <h3>С чего начнёте</h3>
+              <ul class="list">
+                <li><span class="badge">★</span>Погружение в задачи клиентов и продуктовые эксперименты</li>
+                <li><span class="badge">★</span>Практика и стажировки в вузах, живая обратная связь</li>
+                <li><span class="badge">★</span>Видео, рилсы и встречи с наставниками</li>
+              </ul>
+              <div class="timeline">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="mini-grid">
+                <div>
+                  <div class="label">Сотрудников</div>
+                  <strong>550+</strong>
+                  <small>Масштабируем команду, открываем новые города</small>
+                </div>
+                <div>
+                  <div class="label">Основаны</div>
+                  <strong>2010</strong>
+                  <small>Устоявшиеся процессы, гибкая культура</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="clients">
+      <div class="section-header">
+        <h2>Полезный контент для главных бухгалтеров</h2>
+        <p class="lead">Статьи-инструкции, короткие видео и база решений — будем «подсаживать» главбухов на простой, понятный контент.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="label">Статьи</div>
+          <h3>Разборы ошибок</h3>
+          <p>Пошаговые решения со скриншотами, как исправить типовые ошибки в 1С для госсектора.</p>
+        </div>
+        <div class="card">
+          <div class="label">Видео</div>
+          <h3>Короткие гайды</h3>
+          <p>Мини-уроки по закрытию задач и формированию отчётности без стресса.</p>
+        </div>
+        <div class="card">
+          <div class="label">Библиотека</div>
+          <h3>500 000 решений</h3>
+          <p>Закрываем любые кейсы — от расчёта зарплаты до редких налоговых нюансов.</p>
+        </div>
+      </div>
+      <div class="cta-banner">
+        <div>
+          <h3>Запросить инструкции под вашу задачу</h3>
+          <p>Напишите тему — пришлём пошаговый гайд и назначим эксперта, который проведёт за руку.</p>
+        </div>
+        <button class="btn" data-target="clients">Получить инструкции</button>
+      </div>
+    </section>
+
+    <section class="section" id="talent">
+      <div class="section-header">
+        <h2>О компании</h2>
+        <p class="lead">15 лет без сайта, зато с устойчивыми процессами. Теперь делаем витрину, достойную нашей культуры и масштаба.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="label">Сотрудники</div>
+          <h3>550+ в 6 городах</h3>
+          <p>Красноярск, Краснодар, Владивосток, Самара, Екатеринбург, Иркутск — открываем Санкт-Петербург.</p>
+        </div>
+        <div class="card">
+          <div class="label">Клиенты</div>
+          <h3>3000+ учреждений</h3>
+          <p>От Калининграда до Камчатки. Помогаем главбухам сдавать отчётность вовремя и без ошибок.</p>
+        </div>
+        <div class="card">
+          <div class="label">Амбиции</div>
+          <h3>Стать №1 партнёром 1С</h3>
+          <p>Сейчас — №7 из 6800. Подтянем найм, усилим сервис и выйдем на первое место.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="split">
+      <div>
+        <img src="assets/logo-apogey.svg" alt="Логотип Апогей" class="footer-logo">
+        <p class="quote">Апогей — техподдержка 1С для госучреждений, №7 партнёр 1С. Работаем с 2010 года, растём и строим сильную IT-культуру.</p>
+      </div>
+      <div class="footer-cta">
+        <h4>Быстрая связь</h4>
+        <p class="muted">Красноярск (HQ) · Краснодар · Владивосток · Самара · Екатеринбург · Иркутск · Санкт-Петербург</p>
+        <div class="pill-row">
+          <button class="btn" data-target="clients">Оставить задачу</button>
+          <button class="btn ghost" data-target="talent">Стать частью команды</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© 2010–2025 Апогей. Все права защищены.</small>
+      <small>Двухаудиторный сайт: клиенты и сотрудники в едином стиле.</small>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
