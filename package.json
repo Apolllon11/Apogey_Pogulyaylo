@@ -1,0 +1,26 @@
+{
+  "name": "apogey_pogulyaylo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apolllon11/Apogey_Pogulyaylo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Apolllon11/Apogey_Pogulyaylo/issues"
+  },
+  "homepage": "https://github.com/Apolllon11/Apogey_Pogulyaylo#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0"
+  }
+}
